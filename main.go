@@ -24,6 +24,7 @@ type Users struct {
 	UpdatedAt time.Time
 	DeletedAt *time.Time `sql:"index"`
 
+	PID    int
 	Name   string
 	Gender int
 	Mark   string
